@@ -5,7 +5,6 @@ Echo "Arithmatic And Computaion Sorting"
 read -p "Enter the 1st value: " a
 read -p "Enter the 2nd value: " b
 read -p "Enter the 3rd value: " c
-echo "a="$a;
-echo "b="$b;
-echo "c="$c;
+result=$((($a+$b)*$c))
+echo "Result of (a+b*c)=" $result
 

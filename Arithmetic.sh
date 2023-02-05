@@ -22,3 +22,10 @@ result_dict[2]=$result2
 result_dict[3]=$result3
 result_dict[4]=$result4
 echo ${result_dict[@]}
+
+for(( i=0; i<4; i++))
+do
+ 	t=$(($i+1))
+	arr[i]=${result_dict[t]}
+done
+echo ${arr[@]}

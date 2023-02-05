@@ -5,7 +5,7 @@ Echo "Arithmatic And Computaion Sorting"
 read -p "Enter the 1st value: " a
 read -p "Enter the 2nd value: " b
 read -p "Enter the 3rd value: " c
-result=$((($c+$a)/$b))
+result=$((($a%$b)+$c))
 
-echo "Result of (c+a/b)=" $result
+echo "Result of (a%b+c)=" $result
 
